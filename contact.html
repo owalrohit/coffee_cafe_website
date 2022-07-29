@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="slideStyles1.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    
+</head>
+<body>
+     <!-- navbar -->
+     <nav id="topnav">
+        <ul >
+            <li class="topnav2"><a href="index.html" class="topnav3">HOME</a></li>
+            <li class="topnav2" ><a href="Menu.html" class="topnav3">MENU</a></li>
+            <li class="topnav2"> <a href="About.html" class="topnav3">ABOUT US</a> </li>
+            <li class="topnav2"> <a href="contact.html"class="topnav3">CONTACT US</a> </li> 
+            <li class="topnav2"> <b><a href="#"class="topnav3" id="llogo" style="margin-left: 500px;">cafe bloom</a></li>
+        </ul>
+        </nav>
+
+        <!-- contact us -->
+        <section class="contact" id="contact">
+            <div class="heading">
+                <h2>CONTACT US</h2>
+            </div>
+            <div class="row">
+                <div class="column">
+                 <form action="">
+                              <table>
+                                  <tr><td> <label for="fname" class="table">Full Name:</label></td>
+                                      <td><input id="fname" name="myName" class="table1" placeholder="Enter Full Name"></td></tr>
+              
+                                  <tr><td><label for="contact" class="table">Mobile Number: </label></td>
+                                          <td><input id="contact"   type="tel"  class="table1" placeholder="Enter contact number"></td></tr>
+                                  
+                                  <tr><td> <label for="mail" class="table">Email Id: </label></td>
+                                          <td><input type="email"  id="mail"  class="table1" placeholder="Enter email id"></td></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                  <tr><td><label for="message" class="table">Message:</label></td>   
+                                        <td><textarea name="tarea" id="tarea" cols="30" rows="10" class="table1" placeholder="Enter your message here...."></textarea></td>  </tr>   
+                                      <tr></tr>
+                                  <tr><td></td><td> <input type="submit" value="SUBMIT"> </td></tr>        
+                                          
+                              </table>
+                             
+                           </form>
+                </div>
+                
+                <div class="column" style="margin-left: 150px;margin-top: -60px;">
+                   <section>
+                          <div class="slideshow-container">
+                              <div class="mySlides">
+                                  <img src="MyImages/s1.jpg" >
+                              </div>
+                              <div class="mySlides">
+                                  <img src="MyImages/s2.jpg" >
+                              </div>
+                              <div class="mySlides">
+                                  <img src="myImages/s3.jpg"> 
+                              </div>
+                              <div class="mySlides">
+                                  <img src="MyImages/s4.jpg" ><br><br> <br>
+                              </div>
+                              <a class="slider-btn prev" onclick="setSlides(-1)" style="margin-left: 20px;">❮</a>
+                              <a class="slider-btn next" onclick="setSlides(1)" style="margin-left: 50px;">❯</a>
+              
+                            </div>
+                          
+                          
+                    </section>
+                </div>
+              </div>
+        </section>  
+        <footer id="footer" class="footer">  
+            <div class="container" >
+                <div class="row" style="margin: 100px;">
+                    <div class="footer-col">
+                        <h4>ADDRESS</h4>
+                        <p>Cafe Coffee Bloom,<br>Purandar Vasahat, Satara <br>Maharashtra - 412898</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>FOLLOW US</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>    
+                    <div class="footer-col">
+                        <div>
+                            <h4>CONTACT NUMBER</h4>
+                            <p>02167-224523<br>02167-224524 <br>02167-224525</p>
+                        </div>    
+                    </div>    
+                </div>
+            </div>
+            
+         </footer>     
+           
+        <script src="project.js"></script>
+</body>
+</html>
